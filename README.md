@@ -46,4 +46,4 @@ versions and updates in the future.
 Install git following these 
 [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-$`a = 12^5`$
+
