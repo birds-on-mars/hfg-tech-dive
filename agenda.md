@@ -1,4 +1,3 @@
-[[_TOC_]]
 
 ## Ziel:
 Autonome kleine Gruppen, die arbeiten und in Eigenregie mit bestehenden Tools, 
