@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 ## Ziel:
 Autonome kleine Gruppen, die arbeiten und in Eigenregie mit bestehenden Tools, 
 in die sie sich einarbeiten, Konzepte und Prototypen erarbeiten.
@@ -24,13 +26,13 @@ Dabei: lernen, neues Machen, Spaß haben.
 * Konsolenbasics, Datenvorverarbeitung, Arbeit auf dem Server, Scripte laden und starten
 * technische Lösungen für die einzelnen Ideen identifizieren, Umsetzung planen und anpacken.
 
-Manche Gruppen arbeiten ab bestehenden Projekten, andere entwicklen Neues, daher am ...
+*Manche Gruppen arbeiten ab bestehenden Projekten, andere entwicklen Neues, daher am ...*
 
 ## Donnerstag: Vertiefungstag mit 2 oder 3 Tracks (je nach Nachfrage):
 * Roman kommt vorbei und zeigt, wie er mit seiner Muse arbeitet - was ihn treibt und bewegt 
-* Track 1: Konzeptioneller Entwurf und Umsetzung. Narrative und Ästhetik mit und um KI herum entwickeln mit Roman Lipski. 
-* Track 2: KI hands-on. Vertiefung der technischen Umsetzung von KI-Projekten mit Blick auf die Ideen der Teilnehmer (Seba oder Florian).
-* Track 3: Kooperation von Technik und Kunst: Wie übersetzt man Kunstentwürfe in Softwareentwürfe? (Seba oder Florian)
+* **Track 1**: Konzeptioneller Entwurf und Umsetzung. Narrative und Ästhetik mit und um KI herum entwickeln mit Roman Lipski. 
+* **Track 2**: KI hands-on. Vertiefung der technischen Umsetzung von KI-Projekten mit Blick auf die Ideen der Teilnehmer (Seba oder Florian).
+* **Track 3**: Kooperation von Technik und Kunst: Wie übersetzt man Kunstentwürfe in Softwareentwürfe? (Seba oder Florian)
 * In jedem Track: Gruppenarbeit mit Impulsen.
 * Abends: Tracks in den Gruppen zusammenführen und auf Ideen anwenden. Kurze Rekapitulation und Vorstellung mit Roman und Florian.
 
