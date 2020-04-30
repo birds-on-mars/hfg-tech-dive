@@ -46,4 +46,38 @@ versions and updates in the future.
 Install git following these 
 [instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
+## StyleGAN
+
+Let's have a look at the 
+[StyleGAN landing page](https://nvlabs.github.io/stylegan2/versions.html).
+It links to a github-repo with the code
+as well as to a repo with the *data set*
+plus a scientific paper explaining the
+algorithm from a conceptual point of
+view. The video previews can give you
+an indication about whether this algorithm
+is useful for your project or not.
+
+## Ingredients of a Machine Learning Algorithm
+
+A ml-algorithm usually consists of three parts:
+the code, the data set, and the model. The code
+either uses the data set to train the model or
+it uses a model to make the model do what it
+was trained for. You can either use an existing
+model for your project, which is rather easy.
+Interesting results can be achieved by using
+the model in an unintended way, by hacking the
+model. Or you can train your own model, which
+is rather hard but gives you deeper control
+over how the model will integrate into your
+project.
+
+## Where do I begin?
+
+Now you have access to a script that looks
+promising. How do you start it? Most algorithms
+are written in a programming language called
+`python`.
+
 
