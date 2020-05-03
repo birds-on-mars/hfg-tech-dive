@@ -193,7 +193,37 @@ different and I don't know much about
 it `¯\_(ツ)_/¯`.
 
 
+## Why bother?
 
+But why should you even bother going 
+through all this trouble with the
+terminal? Well, two reasons. First, if
+you really want to take control over
+the tools that are available as open
+source projects on the internet, the
+terminal gives you access on a very
+detailed level. Second, since machine
+learning centers around having lots
+and lots of data handy, it is very
+helpful, if not crucial to the success
+of a project, to be able to move, 
+copy, evaluate and manipulate data
+fast. Imagine going through an image
+folder of 2000 images and checking
+manually if they are all of the same
+size. A command line script can do
+that for you in 3 lines. Unfortunately,
+a command line script can also easily
+overwrite, corrupt or delete your data,
+and usually not in a way that you could
+restore it from the waste bin. With
+great power comes great responsibility.
+On the other hand, if your project does
+not need to have much control over the
+data or the script, then it might just
+be fine to just skim over the details
+and use a well-tested tool with a nice 
+user interface.
 
 
 
