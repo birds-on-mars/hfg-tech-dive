@@ -225,7 +225,21 @@ be fine to just skim over the details
 and use a well-tested tool with a nice 
 user interface.
 
+## Your turn.
 
+As a small exercise and to prepare for
+Wednesday, use the break to install
+[git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), 
+[python](https://realpython.com/installing-python/),
+and [anaconda](https://docs.anaconda.com/anaconda/install/). 
+Then [clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
+this git repository to your computer
+and try to run `hello_world.py`. It
+probably won't. Figure out what's 
+missing and [use anaconda to configure
+a virtual environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
+so you can
+run the script.
 
 
 

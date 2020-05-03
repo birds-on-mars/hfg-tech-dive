@@ -77,6 +77,11 @@
     * great power, great responsibility
     * not really necessary if your project
 doesn't need in-depth control
+* Exercise
+    * install git, python, anaconda
+    * run `hello_world.py`
+    * configure virtual environment so that
+`hello_world.py` runs
 
 
 
