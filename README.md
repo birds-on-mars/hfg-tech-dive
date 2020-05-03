@@ -163,17 +163,26 @@ the terminal. Some people also call it
 the command line, bash, or the shell.
 There are subtle differences between
 those names that we will ignore for 
-today. On Mac, you can open a terminal
+today. 
+* On Mac, you can open a terminal
 by using the spotlight (`Cmd+Space`)
-and typing in `terminal`. Open a new
-terminal tab with `Cmd+T`, close current
-tab with `Cmd+W` and close the terminal
-by typing `Cmd+Q`. On Ubuntu,
+and typing in `terminal`
+    * open a new
+terminal tab with `Cmd+T`
+    * close current
+tab with `Cmd+W` an
+    * close the terminal
+by typing `Cmd+Q`
+* On Ubuntu,
 you can open a terminal by typing
-`Ctrl+Alt+T`, open a new tab with 
-`Ctrl+Shift+T`, and close a tab by
+`Ctrl+Alt+T`
+    * open a new tab with 
+`Ctrl+Shift+T`
+    * and close a tab by
 typing `exit` - this will also close
 the terminal, if the last tab is exited.
+
+
 Mac and Linux share most of the commands
 in the terminal, so if you know your way
 around in one operating system, you will
