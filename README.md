@@ -151,7 +151,38 @@ internet, you also might find
 accompanying blog posts that might give
 hints on successful use, as for example
 [this blog](https://www.gwern.net/Faces)
-does for StyleGAN.
+does for StyleGAN and 
+[this blog](https://affinelayer.com/pixsrv/)
+does for pix2pix.
+
+
+## Did I already mention...?
+
+All this stuff usually happens in
+the terminal. Some people also call it
+the command line, bash, or the shell.
+There are subtle differences between
+those names that we will ignore for 
+today. On Mac, you can open a terminal
+by using the spotlight (`Cmd+Space`)
+and typing in `terminal`. Open a new
+terminal tab with `Cmd+T`, close current
+tab with `Cmd+W` and close the terminal
+by typing `Cmd+Q`. On Ubuntu,
+you can open a terminal by typing
+`Ctrl+Alt+T`, open a new tab with 
+`Ctrl+Shift+T`, and close a tab by
+typing `exit` - this will also close
+the terminal, if the last tab is exited.
+Mac and Linux share most of the commands
+in the terminal, so if you know your way
+around in one operating system, you will
+already have a huge head start with the 
+other. This does not apply to Windows, 
+though. Here, the instruction set is very
+different and I don't know much about
+it `¯\_(ツ)_/¯`.
+
 
 
 
