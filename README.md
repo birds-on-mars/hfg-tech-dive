@@ -78,6 +78,84 @@ project.
 Now you have access to a script that looks
 promising. How do you start it? Most algorithms
 are written in a programming language called
-`python`.
+`python`. To start `python`, go to your terminal
+and type in `python`. If `python` is already
+installed on your machine, this opens an
+interactive session where you can type python
+code and it will immediately be evaluated. If
+`python` is not yet installed on your machine,
+follow 
+[these](https://realpython.com/installing-python/) 
+instructions.
+
+Additionally, most machine learning scripts
+make extensive use of code that has already
+be written and manages standard tasks of 
+certain domains, so-called *libraries* or
+*frameworks*. Depending on the script you are
+running, you might need to get a few of those,
+too. Notable libraries for machine learning
+are `tensorflow`, `numpy`, `scipy`, `torch`, 
+`keras`, and many more. Unfortunately, the
+requirements of some scripts might collide,
+for example if one script depends on
+`tensorflow v1.0` and another script depends
+on `tensorflow v2.1` - which version should
+you then install? Well, to manage different
+dependencies, people use *virtual environments*.
+With tools like `anaconda` or `virtualenv`
+you can activate an environment from scratch
+and install all dependencies needed for
+a given script. If you then want to run 
+another script with conflicting dependencies,
+you can deactivate that first environment,
+activate a new one and install the
+dependencies as needed. You will end up
+with different environments for different
+scripts, and you can switch between those
+depending on which script you want to run.
+
+## But really, how do I begin?
+
+With python in place, your virtual
+environments preconfigured and the git
+repository cloned to your hard drive,
+to run a script, you have to activate
+the respective virtual environment
+and then run the script by calling 
+the main `.py`-file with python like so:
+```
+python generate_figures.py
+```
+The name of the main file might differ
+and there might be different files to
+run for different tasks, as for example
+the StyleGAN repository has a separate
+file for starting the training. Also,
+the behaviour of a script can usually
+modified by either setting the options
+in a *configuration file* (often called
+`config.py`) or calling the script
+with so-called *flags*, or both.
+Calling a script with flags looks like 
+this:
+```
+python pix2pix.py --mode train --output_dir facades_train
+``` 
+Usually a repository comes with a 
+README-file that gives more or less
+detailed information on how to set
+options for a given script. If the 
+script had a lot of exposure on the
+internet, you also might find
+accompanying blog posts that might give
+hints on successful use, as for example
+[this blog](https://www.gwern.net/Faces)
+does for StyleGAN.
+
+
+
+
+
 
 
