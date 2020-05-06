@@ -1,0 +1,144 @@
+# basic file operations:
+# ----------------------
+# pwd
+# cd - .. . / ~
+# ls -a -ll
+# clear
+# mkdir
+# cp
+# mv
+# rm -rf
+# tree -d (you might have to install tree)
+# touch
+# wc -w
+# head
+# | grep
+#
+# text editing:
+# -------------
+#
+# more
+# less
+# nano
+# vim
+# atom
+# sublime
+#
+# for working remotely on a server:
+# ---------------------------------
+#
+# ssh
+# scp -r
+# du -h
+# df -h .
+# tmux
+# conda
+#
+# basic bash variables:
+# ---------------------
+# a=15
+# echo $a
+# b=test.jpg
+# echo ${b%.jpg} 
+#
+# changing file names easily:
+# ---------------------------
+#
+# ${X#img/} (remove prefix)
+# ${X%.png} (remove suffix)
+# ${X//substring/replacement}
+#
+# sorting out who is who and does what:
+# -------------------------------------
+#
+# which python
+# whoami
+# chmod u=rwx myscript.sh
+# sudo chmod u=rwx myscript.sh
+# man chmod
+
+
+# example for collecting 100-beste-plakate:
+http://100-beste-plakate.de
+curl http://100-beste-plakate.de/wp-content/uploads/2015/03/100bp12_2[000-300].jpg -o posters/img#1.jpg 
+
+
+
+
+# ex. 1.
+#
+# grab pictures from
+# https://www.jpl.nasa.gov/spaceimages/
+# https://photojournal.jpl.nasa.gov/jpeg/PIA23297.jpg 
+#
+# crawling images with name pattern
+# and writing them to 'space' folder:
+# _______________________________
+# _______________________________
+# _______________________________
+#              (your answer here)
+
+
+# ex. 2.
+#
+# grab pictures from 
+# https://www.phillyhistory.org/
+#
+# crawling images with name pattern
+# and writing them to 'philly' folder:
+# _______________________________
+# _______________________________
+# _______________________________
+#              (your answer here)
+
+
+
+# kaggle data sets: flowers
+# 128x128, 210 images
+https://www.kaggle.com/olgabelitskaya/the-dataset-of-flower-images/
+# diverse, 5350 images
+https://www.kaggle.com/mbkinaci/purple-flower-photos
+
+
+# iterate over all images
+# analyse with identify
+# loop style
+for i in *.jpg; do identify $i; done
+# list style
+identify *.jpg
+
+
+# use exit code of identify to 
+# find faulty images
+# loop style
+for i in *.jpg; do if ! identify $i; then echo "file is not a jpg"; fi; done
+# list style
+identify *.jpg
+identify *.jpg | less
+identify *.jpg 2>&1 | grep insufficient | cut -d \` -f 2 | cut -d \' -f 1
+
+
+# remove faulty images
+# loop style
+for i in *.jpg; do if ! identify $i; then rm $i; fi; done 
+# list style
+identify *.jpg 2>&1 | grep insufficient | cut -d \` -f 2 | cut -d \' -f 1 | xargs -I X rm X
+
+
+# resize images with convert
+for i in *.jpg; do convert $i -resize 100x100^ -gravity Center -crop 100x100+0+0 -colorspace Grey ${i}gray.jpg; done
+
+
+# get frames from video
+ffmpeg -i vid.mp4 frames/frame%04d.jpg
+
+
+# terminal tool to download youtube videos
+youtube-dl
+
+
+# in browser:
+ssyoutube.com
+
+
+
