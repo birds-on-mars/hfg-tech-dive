@@ -60,7 +60,7 @@
 
 # example for collecting 100-beste-plakate:
 http://100-beste-plakate.de
-curl http://100-beste-plakate.de/wp-content/uploads/2015/03/100bp12_2[000-300].jpg -o posters/img#1.jpg 
+curl https://100-beste-plakate.de/wp-content/uploads/2015/03/100bp12_2[000-300].jpg -o posters/img#1.jpg 
 
 
 
