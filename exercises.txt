@@ -142,3 +142,11 @@ ssyoutube.com
 
 
 
+# Links:
+https://medium.com/python-in-plain-english/python-basics-simple-web-crawler-5b9a3610cff5
+https://docs.scrapy.org/en/latest/index.html
+https://www.oreilly.com/library/view/web-scraping-with/9781491985564/
+ssyoutube.com
+https://imagemagick.org/index.php
+http://ffmpeg.org/
+https://linux.die.net/man/1/curl
