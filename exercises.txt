@@ -126,7 +126,7 @@ identify *.jpg 2>&1 | grep insufficient | cut -d \` -f 2 | cut -d \' -f 1 | xarg
 
 
 # resize images with convert
-for i in *.jpg; do convert $i -resize 100x100^ -gravity Center -crop 100x100+0+0 -colorspace Grey ${i}gray.jpg; done
+for i in *.jpg; do convert $i -resize 100x100^ -gravity Center -crop 100x100+0+0 -colorspace Gray ${i}gray.jpg; done
 
 
 # get frames from video
